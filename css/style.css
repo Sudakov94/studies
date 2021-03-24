@@ -12,3 +12,77 @@ h1, h2, h3, h4, p {
     max-width: 1110px;
     margin: 0 auto;
 }
+
+.happy-item {
+    width: 445px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: -4px;
+    padding: 246px 95px 246px 0;
+    background-color: #2EC5CE;
+}
+
+.happy-title {
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.happy-block {
+    width: 570px;
+    display: inline-block;
+}
+
+.happy-content {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 40px;
+}
+
+.img-quotes {
+    position: relative;
+    margin-bottom: 24px;
+    margin-left: 450px;
+}
+
+.happy-content__user {
+    display: inline-block;
+    width: 255px;
+    margin-bottom: 24px;
+}
+
+.img-user {
+    vertical-align: middle;
+    margin-right: 16px;
+}
+
+.text-user {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+span {
+    font-size: 14px;
+    font-weight: 400;
+    color: #474A57;
+}
+
+.happy-content__text {
+    margin-bottom: 48px;
+    width: 490px;
+    line-height: 32px;
+}
+
+
+
+
