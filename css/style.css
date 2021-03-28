@@ -1,5 +1,6 @@
 body {
     font-family: "Manrope-Medium", sans-serif;
+    margin: 0;
     color: #18191f;
     box-sizing: border-box;
 }
@@ -13,16 +14,20 @@ h1, h2, h3, h4, p {
     margin: 0 auto;
 }
 
-.happy-item {
-    width: 445px;
+.happy-block__left {
+    background-color: #2EC5CE ;
     display: inline-block;
+    box-sizing: border-box;
     vertical-align: middle;
-    margin-right: -4px;
-    padding: 246px 95px 246px 0;
-    background-color: #2EC5CE;
+    width: 540px;
+    padding: 214px 95px 214px 0;
 }
 
-.happy-title {
+.happy-block__item {
+    width: 445px;
+}
+
+h2 {
     font-size: 48px;
     font-weight: 800;
     margin-bottom: 8px;
@@ -31,39 +36,51 @@ h1, h2, h3, h4, p {
 p {
     font-size: 18px;
     font-weight: 400;
+    line-height: 32px;
 }
 
-.happy-block {
+/*левый блок*/
+
+.happy-block__right {
     width: 570px;
-    display: inline-block;
-}
-
-.happy-content {
+    margin-left: -4px;
+    padding: 40px;
+    box-sizing: border-box;
     display: inline-block;
     vertical-align: middle;
-    padding-left: 40px;
 }
 
-.img-quotes {
+.happy-block__content {
+    width: 490px;
+    padding: 90px 0 90px 0;
+    display: inline-block;
     position: relative;
-    margin-bottom: 24px;
-    margin-left: 450px;
 }
 
-.happy-content__user {
+.quotes {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.block-text__user {
     display: inline-block;
     width: 255px;
     margin-bottom: 24px;
 }
 
-.img-user {
+.user-img {
     vertical-align: middle;
-    margin-right: 16px;
+    display: inline-block;
 }
 
-.text-user {
-    display: inline-block;
+.user-text {
     vertical-align: middle;
+    display: inline-block;
+}
+
+.user {
+    margin-right: 16px;
 }
 
 h3 {
@@ -74,15 +91,15 @@ h3 {
 span {
     font-size: 14px;
     font-weight: 400;
-    color: #474A57;
 }
 
-.happy-content__text {
-    margin-bottom: 48px;
-    width: 490px;
-    line-height: 32px;
+.icon {
+    position: absolute;
+    bottom: 0;
 }
 
-
-
-
+.arrow {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
